@@ -43,7 +43,7 @@ const submitstu = (e) => {
             <br />
            
             <br />
-            <input type="number" onChange={addchange}  name="course" placeholder='Course'></input>
+            <input type="text" onChange={addchange}  name="course" placeholder='Course'></input>
             <br />
            
             <br />
