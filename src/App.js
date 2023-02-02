@@ -14,25 +14,8 @@ import { Provider } from 'react-redux'
 
 const App = () => {
   
-//   const navigate = useNavigate();
-//   const home = () => {
-// navigate('/')
-//   }
-//   const student = () => {
-//     navigate('/student')
-//       }
-//       const contact = () => {
-//         navigate('/contact')
-//           }
   return (
-    
     <div>
-{/* <div className='navbar'>
-  <span onClick={home}>Home</span>
-  <span onClick={student}>Student</span>
-  <span onClick={contact}>Contact Us</span>
-
-</div> */}
 <Navbar/>
 <div className='route-div'>
 <Provider store={store}>
